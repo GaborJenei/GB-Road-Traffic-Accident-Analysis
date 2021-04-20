@@ -35,7 +35,7 @@ The data went through some processing prior to the analysis undertaken to answer
     
 3. Are certain vehicle types or road classes more dangerous?
 
-    Injuries of an accident with a motorbike has higher propability to be serious or fatal 🏍️
+    Injuries of an accident with a motorbike has higher Killed or Seriously Injured (KSI) proportion
     
 4. Are injuries tend to be more serious in certain environmental conditions?
     
