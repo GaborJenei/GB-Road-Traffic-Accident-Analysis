@@ -55,7 +55,12 @@ The clusters formed using the serious and fatal casualities shared via Plotly Ch
 </div>
 https://plotly.com/~jeneigabor/13/
 
-# Libraries used
+# Libraries
+- Processing: [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)
+- Modelling [scikit-learn](https://scikit-learn.org/stable/)
+- Visualisation: [matplotlib](https://matplotlib.org/), [seaborn](https://seaborn.pydata.org/), [Plotly](https://plotly.com/python/)
+
+The exact version can be found in the requirements.txt
 
 # Files 
  - with a small description of each
