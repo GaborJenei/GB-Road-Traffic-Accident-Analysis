@@ -52,9 +52,8 @@ The clusters formed using the serious and fatal casualities shared via Plotly Ch
 
 <div>
     <a href="https://plotly.com/~jeneigabor/13/?share_key=Zjsqt7Jw0Gd3RSvxjk011H" target="_blank" title="Killed and Severly Injured Casuality Clusters" style="display: block; text-align: center;"><img src="https://plotly.com/~jeneigabor/13.png?share_key=Zjsqt7Jw0Gd3RSvxjk011H" alt="Killed and Severly Injured Casuality Clusters" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-    <script data-plotly="jeneigabor:13" sharekey-plotly="Zjsqt7Jw0Gd3RSvxjk011H" src="https://plotly.com/embed.js" async></script>
 </div>
-
+https://plotly.com/~jeneigabor/13/
 
 # Libraries used
 
