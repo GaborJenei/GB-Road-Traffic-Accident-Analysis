@@ -31,7 +31,7 @@ The data went through some processing prior to the analysis undertaken to answer
     
 2. What is the distribution of the age groups and gender of the driver of vehicles involved in accidents?
 
-    Age distribution follows a similar pattern for both men and women with a peak between 20 - 35, however twice as much male driver is involved in an accident then female drivers
+    Age distribution follows a similar pattern for both men and women with a peak between 20 - 35, however twice as much male driver is involved in an accident then female drivers.
     
 3. Are certain vehicle types or road classes more dangerous?
 
@@ -39,21 +39,16 @@ The data went through some processing prior to the analysis undertaken to answer
     
 4. Are injuries tend to be more serious in certain environmental conditions?
     
-    There's no single environmental factor highlighted by the analysis. The KSI proportion is higher when all three environmental factor is less favourable (reduced visibility and reduced friction along the road surface).
+    There's no single environmental factor highlighted by the analysis. The KSI proportion is higher when two or more environmental factor is less favourable (reduced visibility and reduced friction along the road surface).
 
 5. Where are the accident hot-spots?
     
-    Using the coordinates (Easting and Northings in meters) and density based clustering was used to highlight the hot-spots.
-    Scikit-learn DBSCAN implementation was used. There two key parameters, eps: the maximum distance between the points, and
-    min_samples: the minimum number of points per neighbourhood to be considered a cluster was set by running the model with different combination of values and using domain knowledge. 
-    The elbow method didn't highlight any distinct eps value on this dataset, probably because there are loads of small clusters scattered across a large area.
+    The coordinates (Easting and Northings in meters) and density based clustering was used to highlight the hot-spots.
+    Scikit-learn DBSCAN implementation was used with a range of eps and min_samples monitoring the size and number of the clusters.
+    The clusters identified shared via this Plotly Chart Studio map: https://plotly.com/~jeneigabor/13/
 
-The clusters formed using the serious and fatal casualities shared via Plotly Chart Studio:
-
-<div>
-    <a href="https://plotly.com/~jeneigabor/13/?share_key=Zjsqt7Jw0Gd3RSvxjk011H" target="_blank" title="Killed and Severly Injured Casuality Clusters" style="display: block; text-align: center;"><img src="https://plotly.com/~jeneigabor/13.png?share_key=Zjsqt7Jw0Gd3RSvxjk011H" alt="Killed and Severly Injured Casuality Clusters" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
-</div>
-https://plotly.com/~jeneigabor/13/
+The detailed discussion can be read on [medium](https://gaborjenei.medium.com/a-crash-look-at-englands-road-traffic-accident-data-62049d4d95b):
+https://gaborjenei.medium.com/a-crash-look-at-englands-road-traffic-accident-data-62049d4d95b
 
 # Libraries
 - Processing: [NumPy](https://numpy.org/), [Pandas](https://pandas.pydata.org/)
@@ -63,4 +58,7 @@ https://plotly.com/~jeneigabor/13/
 The exact version can be found in the requirements.txt
 
 # Files 
- - with a small description of each
+ - Udacity DSND Project1_BlogPost.ipynb is the jupyter notebook holding all code with the analysis
+ - variable lookup.xls is the data dicitionary describing the variables
+ - requirements.txt is the file listing the packages and their versions I used
+ - Data folder has all the raw data files
